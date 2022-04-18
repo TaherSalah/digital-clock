@@ -12,7 +12,7 @@ let getDate = new Date()
 
 function getCurrentDay() {
     let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', ' Friday', 'Saturday']
-    today.innerHTML = `today is ${days[getDate.getDay()]}`
+    today.innerHTML = `Today is ${days[getDate.getDay()]}`
 }
 getCurrentDay()
     ///////////////////////////////////////////////  End get current Day function   ////////////////////////////////////////
@@ -34,3 +34,14 @@ $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
 });
 /////////////////////////////////////////////// End   D-none nav links function    ////////////////////////////////////////
+
+
+  //////////////////////////////////////////////start Loading page //////////////////////////////////////////////////////////
+$(document).ready(function() {
+    $('.loading').fadeOut(1000, function() {
+        $('.navbar ,footer').fadeIn(1000, function() {
+            $('.wrapper').fadeIn(1000)
+        })
+    })
+});
+//////////////////////////////////////////////End Loading page //////////////////////////////////////////////////////////

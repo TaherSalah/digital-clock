@@ -1,199 +1,260 @@
-                       /********************************************************* Start gogle fonts links***********************************************************/
-                       
-                       @import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
-                       @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
-                       /********************************************************* End gogle fonts links***********************************************************/
-                       
-                       * {
-                           margin: 0;
-                           box-sizing: border-box;
-                           padding: 0;
-                       }
-                       
-                       body {
-                           background-color: rgb(42, 34, 34);
-                       }
-                       /********************************************************* Start nav  Style***********************************************************/
-                       
-                       h3 a {
-                           text-decoration: none;
-                           color: #fff;
-                           font-weight: 700;
-                           font-family: "Montserrat" !important;
-                       }
-                       
-                       .navbar-brand img {
-                           width: 10rem;
-                       }
-                       
-                       .navActive {
-                           background-color: beige;
-                           border-radius: 20%;
-                       }
-                       
-                       .navbar-brand {
-                           color: brown !important;
-                           font-size: 20px !important;
-                           font-weight: 500 !important;
-                           padding-left: 10px !important;
-                       }
-                       
-                       ul li a {
-                           transition: all 0.5s linear;
-                           color: #fff !important;
-                           text-decoration: none;
-                           font-family: "Montserrat", sans-serif !important;
-                           font-weight: 600;
-                           margin-bottom: 15px !important;
-                           cursor: pointer;
-                           position: relative;
-                           padding-bottom: 10px !important;
-                       }
-                       
-                       ul li a:before {
-                           content: '';
-                           position: absolute;
-                           height: 2px;
-                           width: 0;
-                           bottom: 0;
-                           left: 10px;
-                           background-color: #fff;
-                           transition: width 0.35s ease-in;
-                       }
-                       
-                       ul li a:hover::before {
-                           width: 75%;
-                           background: rgb(140, 43, 185);
-                       }
-                       
-                       .navbar-brand::before {
-                           content: '';
-                           border-left: 3px solid brown;
-                           border-radius: 10px;
-                           margin-right: 10px;
-                       }
-                       /********************************************************* End nav  Style***********************************************************/
-                       /********************************************************* Start DigClock  Style***********************************************************/
-                       
-                       .timeItem {
-                           width: 70px;
-                           height: 70px;
-                           background-color: rgba(35, 35, 2, 0.774);
-                           border-radius: 25px;
-                           margin-left: 20px;
-                           padding: 10px;
-                           font-size: 30px;
-                           font-weight: 600;
-                           border: 3px solid #ffd136;
-                           color: #fff;
-                           font-family: 'Rubik Microbe', cursive;
-                       }
-                       
-                       #today {
-                           font-family: 'Lalezar', cursive;
-                           letter-spacing: 2px;
-                       }
-                       
-                       .col-12 {
-                           margin-top: 123px;
-                       }
-                       
-                       .opra {
-                           font-size: 70px;
-                           margin-top: -19px;
-                           margin-left: 15px;
-                           color: #fff;
-                       }
-                       
-                       .caption {
-                           margin-bottom: 200px;
-                           margin-top: 156px;
-                       }
-                       /********************************************************* Start DigClock Style ***********************************************************/
-                       /************************************************ Start Footer Style   *******************************/
-                       
-                       footer {
-                           left: 0;
-                           bottom: 0;
-                           right: 0;
-                       }
-                       
-                       .socialMe {
-                           cursor: pointer;
-                       }
-                       
-                       .socialMe .fab1:hover {
-                           color: #1877f2 !important;
-                           transform: translateY(-5px);
-                       }
-                       
-                       .socialMe .fab2:hover {
-                           color: #c32aa3!important;
-                           transform: translateY(-5px);
-                       }
-                       
-                       .socialMe .fab3:hover {
-                           color: #0a66c2 !important;
-                           transform: translateY(-5px);
-                       }
-                       
-                       .socialMe .fab4:hover {
-                           color: #1da1f2 !important;
-                           transform: translateY(-5px);
-                       }
-                       
-                       .socialMe .fab5:hover {
-                           color: #fbff003b !important;
-                           transform: translateY(-5px);
-                       }
-                       
-                       .socialMe .fab6:hover {
-                           color: #4285f4 !important;
-                           transform: translateY(-5px);
-                       }
-                       
-                       .socialMe .fab7:hover {
-                           color: #25d366!important;
-                           transform: translateY(-5px);
-                       }
-                       
-                       .socialMe .svg-inline--fa {
-                           color: #ffffff !important;
-                           font-size: 15px;
-                           transition: all 0.5s linear;
-                           margin-left: 5px;
-                       }
-                       /********************************************************* End Footer Style Sction****************************************************/
-                       /********************************************************* Start media  screen****************************************************/
-                       
-                       @media only screen and (min-width: 768px) {
-                           .navbar-brand {
-                               font-size: 40px !important;
-                           }
-                       }
-                       
-                       @media only screen and (max-width: 600px) {
-                           .navbar-brand {
-                               font-size: 40px !important;
-                           }
-                       }
-                       
-                       @media only screen and (max-width: 360px) {
-                           .navbar-brand {
-                               font-size: 10px !important;
-                           }
-                       }
-                       
-                       @media only screen and (max-width: 688px) {
-                           .navbar-brand {
-                               font-size: 40px !important;
-                           }
-                           .col-12 {
-                               margin-top: 135px;
-                           }
-                           .caption {
-                               margin-bottom: 210px;
-                               margin-top: 170px;
-                           }
-                       }
-                       /********************************************************* End media  screen****************************************************/
+/********************************************************* Start gogle fonts links***********************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+/********************************************************* End gogle fonts links***********************************************************/
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/********************************************************* Start loading ***********************************************************/
+.loading {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.lds-hourglass {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-hourglass:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 32px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-hourglass 1.2s infinite;
+}
+
+@keyframes lds-hourglass {
+    0% {
+        transform: rotate(0);
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+
+    50% {
+        transform: rotate(900deg);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    100% {
+        transform: rotate(1800deg);
+    }
+}
+
+/********************************************************* Start nav  Style***********************************************************/
+
+h3 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Montserrat" !important;
+}
+
+.navbar-brand img {
+    width: 10rem;
+}
+
+.navbar,
+footer {
+    display: none;
+}
+
+
+
+.navbar-brand {
+    color: brown !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    padding-left: 10px !important;
+}
+
+
+
+.navbar-brand::before {
+    content: '';
+    border-left: 3px solid brown;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+/********************************************************* End nav  Style***********************************************************/
+/********************************************************* Start DigClock  Style***********************************************************/
+.welcome {
+    font-size: 50px;
+    font-family: 'Rubik Microbe', cursive;
+    letter-spacing: 10px;
+}
+
+.timeItem {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(35, 35, 2, 0.774);
+    border-radius: 25px;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    border: 3px solid #ffd136;
+    color: #fff;
+    font-family: 'Rubik Microbe', cursive;
+}
+
+#today {
+    font-family: 'Lalezar', cursive;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 500 !important;
+    color:burlywood !important;
+}
+
+.opra {
+    font-size: 70px;
+    margin-top: -19px;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.caption {
+    margin-bottom: 200px;
+    margin-top: 156px;
+}
+
+/********************************************************* Start DigClock Style ***********************************************************/
+/************************************************ Start Footer Style   *******************************/
+footer {
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.socialMe {
+    cursor: pointer;
+}
+
+.socialMe .fab1:hover {
+    color: #1877f2 !important;
+    transform: translateY(-5px);
+}
+
+.socialMe .fab2:hover {
+    color: #c32aa3 !important;
+    transform: translateY(-5px);
+}
+
+.socialMe .fab3:hover {
+    color: #0a66c2 !important;
+    transform: translateY(-5px);
+}
+
+.socialMe .fab4:hover {
+    color: #1da1f2 !important;
+    transform: translateY(-5px);
+}
+
+.socialMe .fab5:hover {
+    color: #fbff003b !important;
+    transform: translateY(-5px);
+}
+
+.socialMe .fab6:hover {
+    color: #4285f4 !important;
+    transform: translateY(-5px);
+}
+
+.socialMe .fab7:hover {
+    color: #25d366 !important;
+    transform: translateY(-5px);
+}
+
+.socialMe .svg-inline--fa {
+    color: #ffffff !important;
+    font-size: 15px;
+    transition: all 0.5s linear;
+    margin-left: 5px;
+}
+
+/********************************************************* End Footer Style Sction****************************************************/
+/********************************************************* Start media  screen****************************************************/
+
+@media only screen and (min-width: 768px) {
+    .navbar-brand {
+        font-size: 40px !important;
+    }
+    .col-12 {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-top: 108px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        font-size: 40px !important;
+    }
+    .col-12 {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .navbar-brand {
+        font-size: 10px !important;
+    }
+    .col-12 {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 688px) {
+    .navbar-brand {
+        font-size: 40px !important;
+    }
+    .col-12 {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .caption {
+        margin-bottom: 210px;
+        margin-top: 170px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .col-12 {
+        flex: 0 0 100%;
+        width: 100%;
+        height: 50px;
+    }
+    .caption{
+        margin-top: 78px;
+    }
+}
+
+/********************************************************* End media  screen****************************************************/

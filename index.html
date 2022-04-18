@@ -5,50 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>start Learn JS</title>
+    <title> Digital Clock App </title>
+    <link rel="icon" href="images/6.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <div class="loading ">
+        <div class="lds-hourglass "></div>
+    </div>
     <!----------------------------Start Navbar section------------------------------------------------>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">Digital <span class="text-white"> Clock</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center my-4 px-2">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link js-scroll-trigger" aria-current="page">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link js-scroll-trigger">Contact us</a>
-                    </li>
-                </ul>
             </div>
         </div>
     </nav>
-
     <!-----------------------------------------End Navbar section------------------------------------------------------->
     <!-----------------------------------------Start DigClock section------------------------------------------------------->
-
     <div class="container text-center">
         <div class="row">
             <div class="col-12">
                 <div class="caption">
+                    <h1 class="welcome text-white pb-3">welcome</h1>
                     <h1 id="today" class="text-white pb-3"></h1>
                     <div class="clockContainer m-3 d-flex justify-content-center align-content-center">
-
                         <div id="houers" class="timeItem">hh</div>
                         <span class="opra">&#8758;</span>
                         <div id="min" class="timeItem">mm</div>
                         <span class="opra">&#8758;</span>
                         <div id="scon" class="timeItem">ss</div>
-
                     </div>
                 </div>
             </div>
@@ -102,6 +91,7 @@
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/particles.js"></script>
     <script src="js/main.js"></script>
     <!---------------------------------------------End script links----------------------------------------------------------->
 
