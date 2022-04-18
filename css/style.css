@@ -71,32 +71,46 @@ h3 a {
     font-weight: 700;
     font-family: "Montserrat" !important;
 }
-
 .navbar-brand img {
     width: 10rem;
 }
-
-.navbar,
-footer {
+.navbar {
     display: none;
 }
-
-
-
 .navbar-brand {
     color: brown !important;
     font-size: 20px !important;
     font-weight: 500 !important;
     padding-left: 10px !important;
 }
-
-
-
 .navbar-brand::before {
     content: '';
     border-left: 3px solid brown;
     border-radius: 10px;
     margin-right: 10px;
+}
+.socialMe .svg-inline--fa {
+    color: rgb(255, 255, 255) !important;
+    font-size: 20px;
+    transition: all 0.5s linear;
+    margin-left: 4px;
+    margin-top: 28px;
+}
+
+.socialMe {
+    cursor: pointer;
+}
+
+.socialMe .fab1:hover {
+    color: #1877f2 !important;
+}
+
+.socialMe .fab3:hover {
+    color: #0a66c2 !important;
+}
+
+.socialMe .fab5:hover {
+    color: #3232243b !important;
 }
 
 /********************************************************* End nav  Style***********************************************************/
@@ -126,7 +140,7 @@ footer {
     letter-spacing: 2px;
     font-size: 30px;
     font-weight: 500 !important;
-    color:burlywood !important;
+    color: burlywood !important;
 }
 
 .opra {
@@ -137,75 +151,24 @@ footer {
 }
 
 .caption {
-    margin-bottom: 200px;
-    margin-top: 156px;
-}
+    margin-top: 200px;}
 
 /********************************************************* Start DigClock Style ***********************************************************/
-/************************************************ Start Footer Style   *******************************/
-footer {
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
 
-.socialMe {
-    cursor: pointer;
-}
-
-.socialMe .fab1:hover {
-    color: #1877f2 !important;
-    transform: translateY(-5px);
-}
-
-.socialMe .fab2:hover {
-    color: #c32aa3 !important;
-    transform: translateY(-5px);
-}
-
-.socialMe .fab3:hover {
-    color: #0a66c2 !important;
-    transform: translateY(-5px);
-}
-
-.socialMe .fab4:hover {
-    color: #1da1f2 !important;
-    transform: translateY(-5px);
-}
-
-.socialMe .fab5:hover {
-    color: #fbff003b !important;
-    transform: translateY(-5px);
-}
-
-.socialMe .fab6:hover {
-    color: #4285f4 !important;
-    transform: translateY(-5px);
-}
-
-.socialMe .fab7:hover {
-    color: #25d366 !important;
-    transform: translateY(-5px);
-}
-
-.socialMe .svg-inline--fa {
-    color: #ffffff !important;
-    font-size: 15px;
-    transition: all 0.5s linear;
-    margin-left: 5px;
-}
-
-/********************************************************* End Footer Style Sction****************************************************/
 /********************************************************* Start media  screen****************************************************/
 
 @media only screen and (min-width: 768px) {
     .navbar-brand {
         font-size: 40px !important;
     }
-    .col-12 {
-        flex: 0 0 auto;
-        width: 100%;
-        margin-top: 108px;
+
+   
+    .socialMe .svg-inline--fa {
+        color: rgb(255, 255, 255) !important;
+        font-size: 20px;
+        transition: all 0.5s linear;
+        margin-left: 14px;
+        margin-top: 28px;
     }
 }
 
@@ -213,47 +176,21 @@ footer {
     .navbar-brand {
         font-size: 40px !important;
     }
-    .col-12 {
-        flex: 0 0 auto;
-        width: 100%;
-        margin-top: 0;
+    .caption {
+        margin-top: 210px;
     }
+  
 }
 
 @media only screen and (max-width: 360px) {
     .navbar-brand {
         font-size: 10px !important;
     }
-    .col-12 {
-        flex: 0 0 auto;
-        width: 100%;
-        margin-top: 0;
-    }
 }
 
 @media only screen and (max-width: 688px) {
     .navbar-brand {
         font-size: 40px !important;
-    }
-    .col-12 {
-        flex: 0 0 auto;
-        width: 100%;
-        margin-top: 0;
-    }
-
-    .caption {
-        margin-bottom: 210px;
-        margin-top: 170px;
-    }
-}
-@media only screen and (max-width: 320px) {
-    .col-12 {
-        flex: 0 0 100%;
-        width: 100%;
-        height: 50px;
-    }
-    .caption{
-        margin-top: 78px;
     }
 }
 
