@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url(../images/2.jpg);
+    background-image: url(../images/slideshow-2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,9 +116,10 @@ h3 a {
 /********************************************************* End nav  Style***********************************************************/
 /********************************************************* Start DigClock  Style***********************************************************/
 .welcome {
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Rubik Microbe', cursive;
     letter-spacing: 10px;
+    font-weight: 500;
 }
 
 .timeItem {
